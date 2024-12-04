@@ -16,12 +16,16 @@
       <UDropdown
         class="block lg:hidden"
         :items="items"
-        :ui="{ item: { disabled: 'cursor-text select-text' } }"
-        :popper="{ placement: 'bottom-start' }"
+        :ui="{
+          item: {
+            disabled: 'cursor-text select-text',
+          },
+        }"
       >
+        <!-- :popper="{ placement: 'left-end' }" -->
         <UIcon
           name="i-heroicons-queue-list-16-solid"
-          class="h-6 w-6 text-white"
+          class="h-8 w-8 text-white"
         />
 
         <template #item="{ item }">

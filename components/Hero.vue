@@ -1,16 +1,16 @@
 <template>
   <div class="hero">
     <Header />
-    <UContainer class="flex min-h-[600px] flex-col justify-between">
+    <UContainer class="flex flex-col justify-between lg:min-h-[600px]">
       <div
-        class="mx-auto mt-[120px] flex w-fit flex-col items-center justify-center text-white"
+        class="mx-auto mt-16 flex w-fit flex-col items-center justify-center text-white lg:mt-[120px]"
       >
-        <h1 class="text-center font-jakarta text-3xl font-bold lg:text-7xl">
+        <h1 class="text-center font-jakarta text-4xl font-bold lg:text-7xl">
           Spend Smarter <br />
           With Stablecoins
         </h1>
 
-        <h2 class="mb-8 mt-5 text-center text-xs lg:text-base">
+        <h2 class="mb-8 mt-5 text-center text-sm lg:text-base">
           Empowering the African diaspora and local merchants <br />
           with seamless, affordable stablecoin payments.
         </h2>

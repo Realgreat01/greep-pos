@@ -13,10 +13,10 @@
     </div>
 
     <div
-      class="grid overflow-hidden rounded-2xl border border-gray-800 lg:grid-cols-3"
+      class="grid overflow-hidden rounded-2xl border-y border-gray-800 lg:grid-cols-3 lg:border"
     >
       <div
-        class="grid h-80 overflow-hidden rounded-none border-none ring-0 lg:col-span-2 lg:flex lg:grid-cols-2"
+        class="grid h-80 overflow-hidden rounded-none border-x ring-0 lg:col-span-2 lg:flex lg:grid-cols-2"
       >
         <div class="p-6 lg:w-[420px] lg:pl-8 lg:pt-[52px]">
           <h2 class="font-semibold lg:text-xl">Do a lot with Greep POS</h2>
@@ -28,7 +28,7 @@
         <img
           src="/images/how/middle-grid.png"
           alt=""
-          class="relative bottom-0 mx-auto mb-0 mt-10 flex h-[85%] w-max self-end"
+          class="relative bottom-0 mx-auto mb-0 mt-10 flex h-[85%] w-[50%] self-end lg:w-max"
         />
       </div>
 
@@ -46,7 +46,7 @@
         </p>
       </div>
       <div
-        class="flex h-80 items-center justify-center border-gray-800 lg:border-l lg:border-t"
+        class="flex h-80 items-center justify-center border-x lg:border-l lg:border-t lg:border-gray-800"
       >
         <img src="/images/how/greep-pos.svg" alt="" class="w-[80%]" />
       </div>
@@ -59,7 +59,7 @@ const features = ref([
   {
     image: "/images/how/secure-transactions.svg",
     title: "Secure Transactions",
-    class: "border-l border-gray-800",
+    class: "border lg:border-l lg:border-gray-800",
     divide: "divide-y divide-gray-800 dark:divide-gray-800",
     description:
       "Enjoy a fast, low-cost, and secure payments system with just a click.",
@@ -67,13 +67,13 @@ const features = ref([
   {
     image: "/images/how/pay.svg",
     title: "Pay with Ease",
-    class: "border-t border-gray-800",
+    class: "border-x lg:border-t lg:border-gray-800",
     description:
       "Use stablecoins like USDT or USDC at local stores via our POS system.",
   },
   {
     image: "/images/how/business.svg",
-    class: "border-t border-l  border-gray-800",
+    class: "border lg:border-t  lg:border-l  lg:border-gray-800",
     title: "Boost Local Business",
     description: "Help build stronger communities with modern payment options.",
   },

@@ -1,14 +1,14 @@
 <template>
   <UContainer
-    class="grid items-center justify-center bg-white pb-4 lg:flex lg:p-0"
+    class="items-center justify-center overflow-x-hidden bg-white pb-10 lg:flex lg:p-0"
   >
     <img
       src="/images/bottom-hero.png"
       alt=""
-      class="relative ml-20 w-[669px] lg:min-h-[520px]"
+      class="relative mx-auto ml-20 block min-h-[285px] w-[520px] lg:ml-20 lg:min-h-[520px] lg:w-[669px]"
     />
     <div class="relative mt-10 lg:-ml-40">
-      <h2 class="mb-3 text-2xl font-semibold lg:text-[54px] lg:leading-[52px]">
+      <h2 class="mb-3 text-3xl font-semibold lg:text-[54px] lg:leading-[52px]">
         Redefine Spending with Stablecoins.
       </h2>
       <p class="text-base text-[#2F2F2F] lg:text-lg">
