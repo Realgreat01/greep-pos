@@ -5,13 +5,13 @@
     <img
       src="/images/bottom-hero.png"
       alt=""
-      class="relative mx-auto ml-20 block min-h-[285px] w-[520px] lg:ml-20 lg:min-h-[520px] lg:w-[669px]"
+      class="relative mx-auto ml-20 block min-h-[205px] w-[520px] lg:ml-20 lg:min-h-[520px] lg:w-[669px]"
     />
-    <div class="relative mt-10 lg:-ml-40">
+    <div class="relative mt-10 text-left lg:-ml-40">
       <h2 class="mb-3 text-3xl font-semibold lg:text-[54px] lg:leading-[52px]">
         Redefine Spending with Stablecoins.
       </h2>
-      <p class="text-base text-[#2F2F2F] lg:text-lg">
+      <p class="text-sm text-[#2F2F2F] lg:text-lg">
         Join us in transforming payments for the diaspora and beyond.
       </p>
       <UButton

@@ -2,7 +2,7 @@
   <div
     class="grid items-center justify-between gap-4 p-4 pb-0 text-white lg:flex lg:p-10"
   >
-    <h1 class="text-xs text-gray-200 lg:text-base">
+    <h1 class="text-nowrap text-xs text-gray-200 lg:text-base">
       &copy; &nbsp;{{ new Date().getFullYear() }} &nbsp; Greep. All rights
       reserved.
     </h1>

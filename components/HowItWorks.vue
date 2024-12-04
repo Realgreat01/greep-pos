@@ -13,10 +13,10 @@
     </div>
 
     <div
-      class="grid overflow-hidden rounded-2xl border-y border-gray-800 lg:grid-cols-3 lg:border"
+      class="grid overflow-hidden rounded-2xl border-y lg:grid-cols-3 lg:border"
     >
       <div
-        class="grid h-80 overflow-hidden rounded-none border-x ring-0 lg:col-span-2 lg:flex lg:grid-cols-2"
+        class="grid h-80 overflow-hidden rounded-none border-x lg:col-span-2 lg:flex lg:grid-cols-2 lg:border-x-0"
       >
         <div class="p-6 lg:w-[420px] lg:pl-8 lg:pt-[52px]">
           <h2 class="font-semibold lg:text-xl">Do a lot with Greep POS</h2>
@@ -33,7 +33,7 @@
       </div>
 
       <div
-        class="flex h-80 flex-col items-center justify-center rounded-none text-center ring-0 lg:ring-1 lg:ring-gray-800"
+        class="flex h-80 flex-col items-center justify-center rounded-none text-center"
         :class="[feature.class]"
         v-for="feature in features"
       >
@@ -45,9 +45,7 @@
           {{ feature.description }}
         </p>
       </div>
-      <div
-        class="flex h-80 items-center justify-center border-x lg:border-l lg:border-t lg:border-gray-800"
-      >
+      <div class="flex h-80 items-center justify-center border-x lg:border-x-0">
         <img src="/images/how/greep-pos.svg" alt="" class="w-[80%]" />
       </div>
     </div>
@@ -59,7 +57,7 @@ const features = ref([
   {
     image: "/images/how/secure-transactions.svg",
     title: "Secure Transactions",
-    class: "border lg:border-l lg:border-gray-800",
+    class: "border lg:border-t-0 lg:border-r-0 lg:border-l",
     divide: "divide-y divide-gray-800 dark:divide-gray-800",
     description:
       "Enjoy a fast, low-cost, and secure payments system with just a click.",
@@ -67,13 +65,13 @@ const features = ref([
   {
     image: "/images/how/pay.svg",
     title: "Pay with Ease",
-    class: "border-x lg:border-t lg:border-gray-800",
+    class: "border-x lg:border-x-0  lg:border-t  ",
     description:
       "Use stablecoins like USDT or USDC at local stores via our POS system.",
   },
   {
     image: "/images/how/business.svg",
-    class: "border lg:border-t  lg:border-l  lg:border-gray-800",
+    class: "border lg:border-b-0",
     title: "Boost Local Business",
     description: "Help build stronger communities with modern payment options.",
   },
